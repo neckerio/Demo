@@ -1,0 +1,6 @@
+---
+- name: this is a test
+  hosts: doc2
+  tasks:
+    - name: ping 
+      ping:
